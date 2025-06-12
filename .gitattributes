@@ -1,0 +1,7 @@
+
+model-test.h5 linguist-vendored
+model-test.keras linguist-vendored
+
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.js linguist-language=JavaScript
