@@ -7,8 +7,8 @@ A simple web application that predicts hand-drawn digits (0–9) using a trained
 
 ## 📸 Demo
 
-![digit0 demo](digit0.gif)
-![digit4 demo](digit4.gif)
+![digit0 demo](digit_0.gif)
+![digit4 demo](digit_4.gif)
 
 ---
 

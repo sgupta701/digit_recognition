@@ -13,16 +13,16 @@ X_test = tf.keras.utils.normalize(X_test, axis=1)
 #build model
 model = tf.keras.models.Sequential()
 
-#add layer 1: Flatten layer
+#layer 1: Flatten layer
 model.add(tf.keras.layers.Flatten())
 
-#add layer 2: Hidden layer
+#layer 2: Hidden layer
 model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
 
-#add layer 3: Hiddend layer
+#layer 3: Hiddend layer
 model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
 
-#add layer 4: output latyer
+#layer 4: output latyer
 model.add(tf.keras.layers.Dense(10, activation=softmax))
 
 #compile model

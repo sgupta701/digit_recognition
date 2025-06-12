@@ -24,22 +24,22 @@ def predict_digit():
     print(request.get_json(silent=True))
     image_data = base64.urlsafe_b64decode(image)
     image = Image.open(io.BytesIO(image_data))
-    # Convert the RGB image to grayscale image
+    
+    # RGB image to grayscale image
     image = image.convert("L")
  
-    # Resize the image to 28x28
+    # Resize
     image = image.resize((28, 28))
-
-    # Convert the image into numpy array
+    
+    #image into numpy array
     image = np.array(image)
 
     # Reshape the image for the model
     image = image.reshape(1, 28, 28) 
 
-    # Normalize the pixel values in image
+    # normalize the pixel values in image
     image = image / 255.
 
-    # Set the datatype of image as float32
     image = image.astype(np.float32)
     input_data = image.astype(np.float32)
     values = model.predict(input_data)
