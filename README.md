@@ -62,7 +62,7 @@ digit_recognition/
 
 1. **Clone the repository:**
 ```bash
-git clone 
+git clone https://github.com/sgupta701/digit_recognition.git
 cd digit_recognition
 ```
 
@@ -128,4 +128,4 @@ pip install tensorflow flask pillow numpy
 ## ✍️ Author
 
 **Saumya Gupta**  
-Connect on [LinkedIn]().
+Connect on [LinkedIn](https://www.linkedin.com/in/saumya-gupta-4385452a4/).
