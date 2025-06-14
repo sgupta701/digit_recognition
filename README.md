@@ -2,7 +2,6 @@
 # 🔢 Digit Recognizer Web App
 
 A simple web application that predicts hand-drawn digits (0–9) using a trained neural network model built on the MNIST dataset. Built with **TensorFlow**, **Keras**, **Flask**, and **JavaScript**.
-
 ---
 
 ## 📸 Demo
