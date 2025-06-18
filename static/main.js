@@ -109,7 +109,6 @@ function finishDrawing(mouseEvent, sigCanvas, context) {
 }
 
 function clearCanvas() {
-  
   context.clearRect(0, 0, canvas.width, canvas.height);
   context.fillRect(0, 0, canvas.width, canvas.height);
 }
