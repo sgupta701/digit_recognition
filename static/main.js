@@ -5,6 +5,7 @@ const confidenceEl = document.getElementById("confidence");
 const clearButton2 = document.getElementById("clearButton2");
 
 let context, canvas;
+
 $(document).ready(function() {
   initialize();
 });
