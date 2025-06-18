@@ -27,7 +27,6 @@ function initialize() {
   context.lineWidth = 7;
 
   context.fillRect(0, 0, sigCanvas.width, sigCanvas.height);
-  
   var is_touch_device = 'ontouchstart' in document.documentElement;
 
   if (is_touch_device) {
