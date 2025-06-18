@@ -56,6 +56,7 @@ function initialize() {
         x: event.targetTouches[0].pageX,
         y: event.targetTouches[0].pageY
       };
+      
       var obj = sigCanvas;
 
       if (obj.offsetParent) {
