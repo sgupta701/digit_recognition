@@ -100,7 +100,6 @@ function drawLine(mouseEvent, sigCanvas, context) {
 }
 
 function finishDrawing(mouseEvent, sigCanvas, context) {
-  
   drawLine(mouseEvent, sigCanvas, context);
   context.closePath();
   $(sigCanvas).unbind("mousemove")
