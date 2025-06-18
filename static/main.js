@@ -75,6 +75,7 @@ function initialize() {
     sigCanvas.addEventListener('touchmove', function(event) {
       event.preventDefault();
     }, false);
+    
   } else {
     $("#canvas").mousedown(function(mouseEvent) {
       var position = getPosition(mouseEvent, sigCanvas);
