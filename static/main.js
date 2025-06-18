@@ -113,6 +113,7 @@ function clearCanvas() {
 }
 
 function predictDigit(e) {
+  
   var image = canvas.toDataURL("image/png");
   
   axios.post("/predict-digit", {
