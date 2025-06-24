@@ -21,7 +21,7 @@ A simple web application that predicts hand-drawn digits (0–9) using a trained
 
 ---
 
-## 🧠 Model Details
+## 🧠 Model Details 
 
 - **Dataset**: MNIST handwritten digit dataset
 - **Architecture**:
